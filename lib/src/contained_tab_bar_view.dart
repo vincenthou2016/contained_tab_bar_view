@@ -164,6 +164,7 @@ class ContainedTabBarViewState extends State<ContainedTabBarView>
           child: TabBar(
             controller: _controller,
             tabs: widget.tabs,
+            dividerColor: Colors.transparent,
             indicator: widget.tabBarProperties.indicator,
             indicatorColor: widget.tabBarProperties.indicatorColor,
             indicatorPadding: widget.tabBarProperties.indicatorPadding,
